@@ -1,0 +1,29 @@
+body {
+    background: url('http://i.imgur.com/jndNN7y.jpg') repeat 50% 0;
+      padding-top: 70px;
+}
+
+
+#headtext {
+    margin-top:20px;
+}
+
+#submit {
+    margin-top:25px;
+}
+
+#floatright {
+    margin-top:15px;
+    margin-left:25px;
+}
+.jumbotron {
+    background-color:#d2e8ff !important;
+}
+
+#headtext2 {
+    margin-top:30-; 
+}
+
+#profilepic {
+       border:1px solid #021a40;
+}
