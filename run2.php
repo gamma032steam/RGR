@@ -81,9 +81,9 @@
               <a href="search.php"><p>Return</p></a>
 <?php
 
-define('DB_NAME', 'whatsup4_tool');
-define('DB_USER', 'whatsup4');
-define('DB_PASSWORD', 'Hero1992');
+define('DB_NAME', 'skaran92_tool');
+define('DB_USER', 'skaran92');
+define('DB_PASSWORD', 'lolwhat234');
 define('DB_HOST', 'localhost');
 
 $link = mysql_connect(DB_HOST, DB_USER, DB_PASSWORD);
@@ -145,7 +145,7 @@ echo "</div>";
 echo "<p>Reports</p>";
 //set up the database connection
 
-    $conn = new PDO('mysql:host=localhost;dbname=whatsup4_tool', 'whatsup4', 'Hero1992');
+    $conn = new PDO('mysql:host=localhost;dbname=skaran92_tool', 'skaran92', 'lolwhat234');
 
 //get the value for the HTML input field named "login_username" given to us by POST.
 

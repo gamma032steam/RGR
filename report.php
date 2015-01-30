@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -77,7 +80,7 @@
     <div class="container">
               <div class="jumbotron">
 <?php 
-session_start();
+
 
 require 'steamauth/steamauth.php';
 $userPermitted = array(

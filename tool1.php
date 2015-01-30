@@ -74,13 +74,7 @@
         </div><!--/.nav-collapse -->
       </div>
     </nav>
-<?php
 
-require("include.php");
-if ($_SERVER["REQUEST_METHOD"] == "GET") {
-$id64 = converttosteamid($vanity);
-echo $id64;
-?>
     <div class="container">
 
       <!-- Main component for a primary marketing message or call to action -->
@@ -88,7 +82,7 @@ echo $id64;
         <h1>Vanity to 64ID Converter</h1>
           <p id="headtext">This tool converts a vanity, such as the bold text in this link:http://steamcommunity.com/id/<b>gamma032</b> to a 64ID such as 76561198044873576.</p>
         <p>The 64ID can be used to search or report users within RGR.</p><br>
-          <form action="<?php echo ($_SERVER["PHP_SELF"]); ?>" method="get">
+          <form action="tool1run.php" method="get">
     <p>User's Vanity: <input type="text" id="headtext" name="vanity" required></p><br>
 <input class="btn-lg btn-danger" id="submit" type="submit" value="Submit">
           </form>

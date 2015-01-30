@@ -78,10 +78,11 @@
               <div class="jumbotron">
 <?php 
 session_start();
-define('DB_NAME', 'whatsup4_tool');
-define('DB_USER', 'whatsup4');
-define('DB_PASSWORD', 'Hero1992');
+define('DB_NAME', 'skaran92_tool');
+define('DB_USER', 'skaran92');
+define('DB_PASSWORD', 'lolwhat234');
 define('DB_HOST', 'localhost');
+
 
 $link = mysql_connect(DB_HOST, DB_USER, DB_PASSWORD);
 
